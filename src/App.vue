@@ -1,5 +1,9 @@
+<script setup>
+import ContactForm from '@/components/ContactForm.vue'
+</script>
+
 <template>
-  <main>
-    <h1 class="text-3xl font-bold text-emerald-700">Hello world!</h1>
+  <main class="w-full h-screen flex-center">
+    <ContactForm />
   </main>
 </template>
