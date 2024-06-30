@@ -21,7 +21,7 @@ function handleSubmit() {
 
 <template>
   <form @submit.prevent="handleSubmit" class="form-container">
-    <div class="section-spacing">
+    <div class="section-spacing space-y-5 md:space-y-8">
       <h2 class="heading">contact us</h2>
 
       <div class="flex-section">
@@ -45,7 +45,7 @@ function handleSubmit() {
 
       <div class="input-container">
         <label>query type</label>
-        <div class="flex-section">
+        <div class="flex-section md:space-y-0 space-y-3">
           <label
             :class="{ 'input-radio-selected': checkSelected('general-enquiry') }"
             class="input-radio"
