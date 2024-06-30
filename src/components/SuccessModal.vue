@@ -1,5 +1,15 @@
 <script setup>
+import { watch } from 'vue'
+
 const props = defineProps(['showModal'])
+const emits = defineEmits(['hideModal'])
+
+watch(
+  () => props.showModal,
+  (newVal) => {
+    if (newVal) setInterval(() => emits('hideModal'), 1500)
+  }
+)
 </script>
 
 <template>
