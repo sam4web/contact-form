@@ -44,6 +44,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Sijal Manandhar](https://www.your-site.com)
-- Frontend Mentor - [@sam4web](https://www.frontendmentor.io/profile/sam4web)
-- Github - [@sam4web](https://github.com/sam4web)
+- Website: [Sijal Manandhar](https://sijalmanandhar.com.np/)
+- Frontend Mentor: [@sam4web](https://www.frontendmentor.io/profile/sam4web)
+- Github: [@sam4web](https://github.com/sam4web)
